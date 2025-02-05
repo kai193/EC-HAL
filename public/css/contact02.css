@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.send {
+    background: #ECE7E7;
+    padding: 92px 0 196px 0;
+    text-align: center;
+}
+
+.send_container_txt {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24.5px;
+    margin-bottom: 72px;
+}
+
+.contact_process li:first-child .number {
+    background-color: #D9D9D9;
+}
+
+.contact_process li:nth-child(2) .number {
+    background-color: yellow;
+}
+
+.contact_process ::before {
+    top: 37%;
+    left: 50%;
+}
+.send_container{
+    width: 843px;
+    margin: 0 auto;
+}
+.send_item {
+    width: 843px;
+    margin: 0 auto;
+}
+
+.send_list {
+    display: flex;
+    gap: 141px;
+    font-size: 15px;
+    border-bottom: 1px solid #999;
+    padding: 20px;
+    align-items: center;
+    font-weight: 900;
+    text-align: left;
+}
+
+.send_txt {
+    text-align: left;
+}
+
+.send_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.send_ttl {
+    flex-basis: 30%;
+}
+
+.send_txt {
+    flex-basis: 100%;
+    text-align: left;
+}
+
+.send_list:first-of-type {
+    border-top: 1px solid #999;
+}
+
+.agree_button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.back_button{
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #999;
+    width: 32px;
+}
