@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    background: #ECE7E7;
+}
+
+.mypage {
+    padding: 122px 0 161px 0;
+}
+
+.mypage_header {
+    text-align: center;
+}
+
+.mypage_ttl {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.mypage_ttl_txt {
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 42px;
+    margin-bottom: 103px;
+}
+
+.mypage_menu {
+    width: 1122px;
+    height: 1016px;
+    border-radius: 88px;
+    background: #FFC268;
+    margin: 0 auto;
+    padding: 126px 91px;
+}
+
+.mypage_txt {
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.mypage_box {
+    background-color: #fff;
+    width: 927px;
+    height: 247px;
+    border-radius: 15px;
+    padding: 42px 32px;
+}
+
+.mypage_list {
+    display: flex;
+    gap: 66px;
+    margin-bottom: 18px;
+}
+
+.mypage_list_name {
+    flex-basis: 30%;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.mypage_list_txt {
+    flex-basis: 100%;
+    color: #000;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.mypage_list {
+    display: flex;
+    gap: 66px;
+}
+
+.mypage_favorite {
+    margin-top: 75px;
+}
+
+.mypage_favorite_ttl {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.agree_button {
+    background-color: #000;
+    color: #fff;
+    width: 441px;
+    height: 49px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.mypage_history {
+    margin-top: 75px;
+}
+
+.mypage_history_ttl {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.mypage_history_txt {
+    border-radius: 15px;
+    background: #FFF;
+    width: 926px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    padding-left: 31px;
+}
+
+.mypage_logout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.logout_button {
+    background-color: #ffffff;
+    color: #000000;
+    width: 119px;
+    height: 31px;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.out_button {
+    font-size: 13px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.out_button span {
+    text-decoration: underline;
+}

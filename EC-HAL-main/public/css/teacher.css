@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    padding-top: 166px;
+}
+
+.new_member_container {
+    text-align: center;
+}
+
+.new_member_line {
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+}
+
+.new_member_process {
+    display: flex;
+    justify-content: center;
+    gap: 233px;
+    padding: 0;
+    margin-top: 95px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.new_member_process li {
+    list-style: none;
+    width: 140px;
+}
+.new_member_process li:first-child .number {
+    background-color: yellow;
+}
+.number {
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    width: 46px;
+    aspect-ratio: 1;
+    border-radius: 23px;
+    margin: 0 auto;
+}
+
+.number_txt {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.new_member_process ::before {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    z-index: -1;
+}
+
+.form {
+    background: #ECE7E7;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_group {
+    display: flex;
+    gap: 160px; 
+}
+
+.form_group01{
+    display: flex;
+    gap: 57px;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #FF0606;
+}
+
+.form_container_txt {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.form_container_item {
+    font-size: 13px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    padding-top: 68px;
+    padding-bottom: 210px;
+}
+
+.form_group {
+    display: flex;
+    gap: 160px; 
+}
+
+.form_group01{
+    display: flex;
+    gap: 57px;
+}
+.form_group02{
+    display: flex;
+    gap: 29px;
+}
+.form_group03 {
+    display: flex;
+}
+.form_group label {
+    width: 150px;
+    text-align: right; 
+}
+input {
+    width: 205px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+
+.email {
+    width: 476px;
+}
+
+.tel {
+    width: 476px;
+}
+.work{
+    width: 476px;
+}
+select {
+    width: 127px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+.radio_content {
+    display: flex;
+}
+
+.item_content_txt {
+    display: flex;
+    gap: 40px;
+}
+
+
+.sex {
+    width: 12px;
+    aspect-ratio: 1;
+}
+input, select{
+    border: none !important; 
+    outline: none !important; 
+}
+.item {
+    margin-right: 185px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.scrollable-conditions {
+    width: 843px;
+    max-height: 197px;
+    overflow-y: auto;
+    border: 1px solid #000;
+    padding: 22px;
+}
+.conditions{
+    padding-bottom: 357px;
+}
+.conditions_txt{
+    padding-right: 550px;
+}
+label.consent_btn{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+
+input#item4{
+    width: 13px;
+    aspect-ratio: 1;
+    margin: 0;
+    margin: 50px 0;
+}
+
+
+.agree_button{
+    background-color: #000;
+    color: #fff;
+    width: 338px;
+    height: 64px;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 40px;
+}
+
+

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.send {
+    background: #ECE7E7;
+    padding: 92px 0 196px 0;
+    text-align: center;
+}
+
+.send_container_txt {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24.5px;
+    margin-bottom: 72px;
+}
+
+.contact_process li:first-child .number {
+    background-color: #D9D9D9;
+}
+
+.contact_process li:nth-child(3) .number {
+    background-color: yellow;
+}
+
+.contact_process ::before {
+    top: 37%;
+    left: 50%;
+}
+
+.completion {
+    background: #ECE7E7;
+    padding: 212px 0 301px 0;
+}
+
+.completion_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.completion_txt {
+    text-align: center;
+    font-weight: 900;
+}
+
+.agree_button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 79px;
+    text-align: center;
+}
